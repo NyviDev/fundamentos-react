@@ -17,11 +17,16 @@ import IndiretaPai from './components/comunicacao/IndiretaPai';
 import Input from './components/formulario/Input';
 import Contador from './components/contador/classe/Contador';
 import ContadorFuncao from './components/contador/funcao/ContadorFuncao';
+import Mega from './components/mega/Mega'
 
 export default _ =>
     <div className='App'>
         <h1>Fundamentos React</h1>
         <div className="Cards">
+            <Card titulo='#14 - MegaSenha' color="#FA6900">
+                <Mega quantidadeIncial={5}></Mega>
+            </Card>
+
             <Card titulo='#13 - Contador em Função' color="#FA6900">
                 <ContadorFuncao numeroInicial={10}></ContadorFuncao>
             </Card>
