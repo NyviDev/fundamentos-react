@@ -1,0 +1,7 @@
+.TabelaProdutos th {
+    background-color: rgb(252, 174, 57);
+}
+
+.TabelaProdutos table {
+    width: 100%;
+}
